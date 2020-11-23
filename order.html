@@ -1,0 +1,79 @@
+ 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<title>Компания "Рога и копыта"</title>
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<table class="maket">
+<tr>
+<td class="header">
+<h1 align="center">Компания "Рога и копыта"</h1>
+<h2 align="center">Мы работаем для вас</h2>
+</td>
+<!— /.header —>
+</tr>
+<tr>
+<td class="horizontal-menu">
+<hr>
+<b> | <a href="#">Главная</a> | <a href="/about.html">О компании</a> | <a href="/employee.html">Наши сотрудники</a> | <a href="/education.html">Обучение</a> | <a href="/gallery.html">Галлерея| <a href="/order.html">Заказ</a> |</b>
+<hr>
+</td>
+<!— /.horizontal-menu —>
+</tr>
+<tr class="content-col">
+
+<!— /.vertical-menu —>
+<td class="content">
+<h3>Заказать</h3>
+<form action="" method="POST">
+<label class="calculation">
+<label>Наличный расчёт<input type="radio" name="calculation"></label>
+<labe1>Безналичный расчёт<input type="radio" name="calculation"></labe1>
+</label>
+
+<p><label>Фамилия <input type="text" name="surname" placeholder="Петров"></label></p>
+<p><label>Имя <input type="text" name="name" placeholder="Пётр"></label></p>
+<p><label>Отчество <input type="text" name="middleName" placeholder="Петрович"></label></p>
+<p><label>Email <input type="email" name="email" placeholder="petrovich@mail.ru"></label></p>
+<p><label>Телефон <input type="text" name="phone" placeholder="+7 (999)000-00-00"></label></p>
+<p><label>Пароль <input type="password" name="password" placeholder="********"></label></p>
+<p><label>Подтвердите пароль <input type="password" name="confrimPassword" placeholder="********"></label></p>
+<p><label>Федеральный округ
+<select name="federalDistrict">
+<option value="1" selected>Центральный</option>
+<option value="2">Северо-западный</option>
+<option value="3">Южный</option>
+<option value="4">Северо-Кавказкий</option>
+<option value="5">Приволжский</option>
+<option value="6">Уральский</option>
+</select>
+</label></p>
+<p><label class="labelOrder"></p>
+Заказываю
+<p><label><input type="checkbox" name="horns">рога в количестве <input type="number" name="hornsCount" value="1"> штук</label></p>
+<p><label><input type="checkbox" name="hooves">копыта в количестве <input type="number" name="hoovesCount" value="1"> штук</label></p>
+</label>
+<label>Пожелания<br><textarea name="wishes" cols="30" rows="4"></textarea></label>
+<input type="submit" value="Подтвердить заказ">
+</form>
+</td>
+<!— /.content —>
+</tr>
+<!— /.content-col —>
+<tr class="footer">
+<td>
+<hr>
+<i>&copy; Бендер и компания</i>
+</td>
+<!— /.footer —>
+</tr>
+</table>
+</body>
+</html>
