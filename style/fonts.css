@@ -1,0 +1,40 @@
+p.one {
+font-family:"Times New Roman", Georgia, Serif;
+font-style:normal;
+font-variant:small-caps;
+font-weight:normal;
+font-size:x-small;
+color:FF0000;
+}
+p.two {
+font-family:"Helvetica", Geneva,Sans-serif;
+font-style:italic;
+font-variant:normal;
+font-weight:bold;
+font-size:medium;
+color:rgb (0,255,0);                                                                     
+}
+p.three {
+font-family:"Courier", Courier New, Monospace;
+font-style:oblique;
+font-variant:normal;
+font-weight:lighter;
+font-size:xx-large;
+color:blue;
+}
+p.four {
+font-family:"Gabriola", Author, Cursive;
+font-style:normal;
+font-variant:normal;
+font-weight:100;
+font-size:12px;
+color:hsl (60, 50%);
+}
+p.five {
+font-family:Western;
+font-style:normal;
+font-variant:normal;
+font-weight:900;
+font-size:150%;
+color:initial;
+}
