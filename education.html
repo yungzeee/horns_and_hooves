@@ -4,9 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style/main.css">
-
+<link rel="stylesheet" href="style/table.css">
 
 <title>Компания "Рога и копыта"</title>
+<style>
+    a {
+    color: #14ffe0; /* Цвет обычной ссылки */
+    padding: 2px; /* Поля вокруг текста */
+    }
+    a:visited {
+    color: #19f0ff; /* Цвет посещенной ссылки */
+    }
+    a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */
+    background: #0edf99; /* Цвет фона */
+    }
+    </style>
 </head>
 <body>
 <div class="wrapper">
@@ -17,13 +31,13 @@
 <!— /.header —>
 <div class="menu">
 <ul>
-<li><a href="/index.html" class="menu-link">Главная</a></li>
-<li><a href="/about.html" class="menu-link">О компании</a></li>
-<li><a href="/employee.html" class="menu-link">Наши сотрудники</a></li>
-<li><a href="/order.html" class="menu-link">Заказать</a></li>
-<li><a href="/gallery.html" class="menu-link">Галлерея</a></li>
-<li><a href="/education.html" class="menu-link">Обучение</a></li>
-<li><a href="/fonts.html" class="menu-link">Шрифты</a></li>
+<li><a href="index.html" class="menu-link">Главная</a></li>
+<li><a href="about.html" class="menu-link">О компании</a></li>
+<li><a href="employee.html" class="menu-link">Наши сотрудники</a></li>
+<li><a href="order.html" class="menu-link">Заказать</a></li>
+<li><a href="gallery.html" class="menu-link">Галерея</a></li>
+<li><a href="education.html" class="menu-link">Обучение</a></li>
+<li><a href="fonts.html" class="menu-link">Шрифты</a></li>
 <li><a href="https://мвд.рф/" target="_blank" class="menu-link">Мы чтим уголовный кодекс</a></li>
 </ul>
 </div>
@@ -31,41 +45,40 @@
 <div class="content-col">
 <div class="vertical-menu">
 <ul>
-<li><a href="/index.html" class="menu-link">Главная</a></li>
-<li><a href="/about.html" class="menu-link">О компании</a></li>
-<li><a href="/employee.html" class="menu-link">Наши сотрудники</a></li>
-<li><a href="/order.html" class="menu-link">Заказать</a></li>
-<li><a href="/gallery.html" class="menu-link">Галлерея</a></li>
-<li><a href="/education.html" class="menu-link">Обучение</a></li>
-<li><a href="/fonts.html" class="menu-link">Шрифты</a></li>
+<li><a href="index.html" class="menu-link">Главная</a></li>
+<li><a href="about.html" class="menu-link">О компании</a></li>
+<li><a href="employee.html" class="menu-link">Наши сотрудники</a></li>
+<li><a href="order.html" class="menu-link">Заказать</a></li>
+<li><a href="gallery.html" class="menu-link">Галерея</a></li>
+<li><a href="education.html" class="menu-link">Обучение</a></li>
 </ul>
 </div>
 <!— /.vertical-menu —>
 <div class="content">
 <b>Распределение часов учебной нагрузки профессиональной подготовки</b>
-<table border="1px" style="border-spacing: 0px">
+<table class="education">
 <tr>
-<td rowspan="4"><b>№ п/п</b></td>
-<td rowspan="4"><b>Наименование дисциплин и видов учебной работы студента</b></td>
-<td rowspan="3" colspan="2"><b>Распределение по семестрам</b></td>
-<td colspan="7"><b>Объём работы (количество часов</b></td>
+<td rowspan="4">№ п/п</td>
+<td rowspan="4">Наименование дисциплин и видов учебной работы студента</td>
+<td rowspan="3" colspan="2">Распределение по семестрам</td>
+<td colspan="7">Объём работы (количество часов)</td>
 </tr>
 <tr>
-<td rowspan="3"><b>Всего (часов)</b></td>
-<td colspan="5"><b>С преподователем</b></td>
-<td rowspan="3"><b>СР</b></td>
+<td rowspan="3">Всего (часов)</td>
+<td colspan="5">С преподователем</td>
+<td rowspan="3">СР</td>
 </tr>
 <tr>
-<td colspan="4"><b>Аудиторные занятия</b></td>
-<td rowspan="2"><b>ИЗ</b></td>
+<td colspan="4">Аудиторные занятия</td>
+<td rowspan="2">ИЗ</td>
 </tr>
 <tr>
-<td><b>Экзамен</b></td>
-<td><b>Зачёт</b></td>
-<td><b>Всего</b></td>
-<td><b>Лекции</b></td>
-<td><b>ЛПЗ</b></td>
-<td><b>ПЗ</b></td>
+<td>Экзамен</td>
+<td>Зачёт</td>
+<td>Всего</td>
+<td>Лекции</td>
+<td>ЛПЗ</td>
+<td>ПЗ</td>
 </tr>
 <tr>
 <td>1</td>
@@ -94,7 +107,7 @@
 <td>100</td>
 </tr>
 <tr>
-<td colspan="4"><b>Всего часов:</b></td>
+<td colspan="4">Всего часов:</td>
 <td>532</td>
 <td>336</td>
 <td>84</td>
@@ -104,15 +117,14 @@
 <td>166</td>
 </tr>
 </table>
-</td>
+</div>
 <!— /.content —>
-</tr>
+</div>
 <!— /.content-col —>
-<tr class="footer">
-    <footer>
-        <a href="#" class="btn-up" title="Наверх">^<br>|</a>
-        <i>&copy; Бендер и компания</i>
-        </footer>
-        </div>
-        </body>
-        </html>
+<footer>
+<a href="#" class="btn-up" title="Наверх">^<br>|</a>
+<i>&copy; Бендер и компания</i>
+</footer>
+</div>
+</body>
+</html>
