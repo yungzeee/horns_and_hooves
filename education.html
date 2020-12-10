@@ -1,62 +1,90 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style/main.css">
 <link rel="stylesheet" href="style/table.css">
-
 <title>Компания "Рога и копыта"</title>
 <style>
-    a {
-    color: #14ffe0; /* Цвет обычной ссылки */
-    padding: 2px; /* Поля вокруг текста */
-    }
-    a:visited {
-    color: #19f0ff; /* Цвет посещенной ссылки */
-    }
-    a:hover {
-    text-decoration: none; /* Убираем подчеркивание */
-    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */
-    background: #0edf99; /* Цвет фона */
-    }
+   
     </style>
 </head>
 <body>
-<div class="wrapper">
-<header>
+<div id="container">
+<div id="header">
 <h1>Компания "Рога и копыта"</h1>
-<h2>Мы работаем для вас</h2>
-</header>
-<!— /.header —>
+<h2>Мы работаем для Вас</h2>
+</div>
+<div id="vermenu">
+<div class="menu2">
+<ul id="navbar">
+<li><a href="index.html"> Главня</a></li>
+<li><a href="about.html">Окомпании</a></li>
+<li><a href="employee.html">Наши сотрудники</a></li>
+<li><a href="education.html">Обучение</a></li>
+<li><a href="#" >Медия</a>
+<ul>
+<li>
+<a href="gallery.html">Галлерея</a>
+</li>
+<li>
+<a href="video.html" class="brd">Видео и аудио</a>
+</li>
+</ul>
+</li>
+<li><a href="order.html">Заказы</a></li>
+<li><a href="https://xn--b1aew.xn--p1ai/" class="mvd">Мы чтим уголовный кодекс</a></li>
+</ul>
+</div>
+<div class="menu1">
+<ul id="navbar">
+<li><a href="index.html"> Главная</a></li>
+<li><a href="about.html">Окомпании</a></li>
+<li><a href="employee.html">Наши сотрудники</a></li>
+<li><a href="education.html">Обучение</a></li>
+<li><a href="#" >Медия</a>
+<ul>
+<li>
+<a href="gallery.html">Галлерея</a>
+</li>
+<li>
+<a href="video.html" class="brd">Видео и аудио</a>
+</li>
+</ul>
+</li>
+<li><a href="order.html">Заказы</a></li>
+<li><a href="https://xn--b1aew.xn--p1ai/" class="mvd">Мы чтим уголовный кодекс</a></li>
+</ul>
+
+</div>
+</div>
+<div id="sidebar">
 <div class="menu">
 <ul>
-<li><a href="index.html" class="menu-link">Главная</a></li>
-<li><a href="about.html" class="menu-link">О компании</a></li>
-<li><a href="employee.html" class="menu-link">Наши сотрудники</a></li>
-<li><a href="order.html" class="menu-link">Заказать</a></li>
-<li><a href="gallery.html" class="menu-link">Галерея</a></li>
-<li><a href="education.html" class="menu-link">Обучение</a></li>
-<li><a href="fonts.html" class="menu-link">Шрифты</a></li>
-<li><a href="https://мвд.рф/" target="_blank" class="menu-link">Мы чтим уголовный кодекс</a></li>
-</ul>
-</div>
-<!— /.menu —>
-<div class="content-col">
-<div class="vertical-menu">
+<li><a href="index.html"> Главная</a></li>
+<li><a href="about.html">Окомпании</a></li>
+<li><a href="employee.html">Наши сотрудники</a></li>
+<li><a href="education.html">Обучение</a></li>
+<li><li><a href="#" >Медия</a>
 <ul>
-<li><a href="index.html" class="menu-link">Главная</a></li>
-<li><a href="about.html" class="menu-link">О компании</a></li>
-<li><a href="employee.html" class="menu-link">Наши сотрудники</a></li>
-<li><a href="order.html" class="menu-link">Заказать</a></li>
-<li><a href="gallery.html" class="menu-link">Галерея</a></li>
-<li><a href="education.html" class="menu-link">Обучение</a></li>
+<li>
+<a href="gallery.html">Галлерея</a>
+</li>
+<li>
+<a href="video.html" class="brd">Видео и аудио</a>
+</li>
+</ul>
+</li>
+<li><a href="order.html">Заказы</a></li>
+<li><a href="https://xn--b1aew.xn--p1ai/" class="mvd">Мы чтим уголовный кодекс</a></li>
 </ul>
 </div>
-<!— /.vertical-menu —>
+</div>
 <div class="content">
 <b>Распределение часов учебной нагрузки профессиональной подготовки</b>
-<table class="education">
+<table class="education" border="solid" 2px #19478b>
+<thead>
 <tr>
 <td rowspan="4">№ п/п</td>
 <td rowspan="4">Наименование дисциплин и видов учебной работы студента</td>
@@ -80,7 +108,10 @@
 <td>ЛПЗ</td>
 <td>ПЗ</td>
 </tr>
-<tr>
+</thead>
+
+<tbody>
+    <tr>
 <td>1</td>
 <td>Общая теория рогов</td>
 <td>2</td>
@@ -106,7 +137,10 @@
 <td>50</td>
 <td>100</td>
 </tr>
-<tr>
+</tbody>
+
+<tfoot>
+    <tr>
 <td colspan="4">Всего часов:</td>
 <td>532</td>
 <td>336</td>
@@ -116,15 +150,16 @@
 <td>80</td>
 <td>166</td>
 </tr>
+</tfoot>
+
 </table>
 </div>
 <!— /.content —>
 </div>
 <!— /.content-col —>
-<footer>
-<a href="#" class="btn-up" title="Наверх">^<br>|</a>
-<i>&copy; Бендер и компания</i>
-</footer>
-</div>
-</body>
-</html>
+<div id="footer">
+    <a href="#" target="Вернуться к началу страницы" class="tp">Вверх</a>
+    <p class="pod"> &copy <i>Бендер и компания</i></p></div>
+    </div>
+    </body>
+    </html>
